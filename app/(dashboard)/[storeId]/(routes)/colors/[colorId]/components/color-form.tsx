@@ -15,7 +15,6 @@ import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { Input } from '@/components/ui/input'
 import AlertModal from '@/components/modals/alert-modal'
-import ImageUpload from '@/components/ui/image-upload'
 import {
   Form,
   FormControl,
@@ -108,7 +107,7 @@ const ColorForm: FC<ColorFormProps> = ({ initialData }) => {
           <Button
             disabled={loading}
             variant="destructive"
-            color="sm"
+            size="sm"
             onClick={() => setOpen(true)}
           >
             <Trash className="h-4 w-4" />

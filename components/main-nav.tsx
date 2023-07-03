@@ -23,6 +23,11 @@ export function MainNav({
       active: pathname === `/${params.storeId}/billboards`,
     },
     {
+      href: `/${params.storeId}/categories`,
+      label: 'Category',
+      active: pathname === `/${params.storeId}/categories`,
+    },
+    {
       href: `/${params.storeId}/sizes`,
       label: 'Sizes',
       active: pathname === `/${params.storeId}/sizes`,
@@ -31,6 +36,11 @@ export function MainNav({
       href: `/${params.storeId}/colors`,
       label: 'Colors',
       active: pathname === `/${params.storeId}/colors`,
+    },
+    {
+      href: `/${params.storeId}/products`,
+      label: 'Products',
+      active: pathname === `/${params.storeId}/products`,
     },
     {
       href: `/${params.storeId}/settings`,
